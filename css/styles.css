@@ -1,0 +1,60 @@
+/* GLOBAL
+----------------------------------*/
+/* Links*/ 
+    a { 
+        color: black;
+    }
+    a:hover {
+        color:grey;
+        text-decoration: none;
+    }
+
+
+/* HOME
+----------------------------------*/
+    .home {
+        background: url(../images/background.jpg) no-repeat;
+        background-size:cover; 
+    }
+    .home .content-wrapper {
+        background-color: rgb(225 235 243/0.9);
+    }
+
+    .btn {
+        background:pink;
+        color: darkred;
+        text-decoration: none; 
+    }
+
+
+/* RESUME
+----------------------------------*/
+
+/* Profile
+----------------------------------*/
+
+/* Projects
+----------------------------------*/
+
+/* Footer
+----------------------------------*/
+    footer {
+        background-color: #6B0C44;
+        color:  #EB8FC4
+    }
+    footer a {
+    /* make this a color*/
+    }
+    footer a:hover {
+    /* make this a color*/
+    }
+    /*
+COLOR PALLETTE 
+
+green #396B0C
+dark pink #6B0C44
+pink pink #EB8FC4
+bg white #e1ebf3
+black #180A1C
+
+*/
