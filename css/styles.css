@@ -1,5 +1,21 @@
 /* GLOBAL
 ----------------------------------*/
+    body {
+        background:  rgb(225 235 243/0.9);
+        margin: 0px;
+
+    }
+    html, body {
+        height: 100%;
+
+    }
+
+/* HEADER
+----------------------------------*/
+    .content-wrapper {
+        
+    }
+
 /* Links*/ 
     a { 
         color: black;
@@ -15,9 +31,11 @@
     .home {
         background: url(../images/background.jpg) no-repeat;
         background-size:cover; 
+        margin: 0px;
     }
     .home .content-wrapper {
         background-color: rgb(225 235 243/0.9);
+
     }
 
     .btn {
@@ -39,15 +57,34 @@
 /* Footer
 ----------------------------------*/
     footer {
+        margin: 0px;
         background-color: #6B0C44;
-        color:  #EB8FC4
+        color:  #EB8FC4;
+
     }
     footer a {
-    /* make this a color*/
+        /* make this a color*/
+        
+
     }
     footer a:hover {
-    /* make this a color*/
+        /* make this a color*/
     }
+
+    .socials {
+        list-style-type: none;
+        padding: 0;
+    }
+    .socials li {
+        display: inline-block;
+    }
+    .socials img {
+        width: 32px;
+        
+    }
+
+
+
     /*
 COLOR PALLETTE 
 
