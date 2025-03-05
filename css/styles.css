@@ -3,13 +3,23 @@
     body {
         background:  rgb(225 235 243/0.9);
         margin: 0px;
+        font-family: "Lexend", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 300;
+        font-style: normal;
+        font-size: 1em;
 
     }
+    h1, h2, h3 {
+        font-family: serif;
+        font-weight: bold;
+        font-display: 40;
+        font-size: 2.5em;
+    }
+
     html, body {
         height: 100%;
     }
-
-
 
 /* HEADER
 ----------------------------------*/
@@ -79,6 +89,12 @@
         width: 300 px;
         float: left;
         margin-right: 20px;
+    }
+    .portfolio-images{
+
+    }
+
+    .image-summary{
 
     }
 
