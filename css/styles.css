@@ -7,13 +7,16 @@
     }
     html, body {
         height: 100%;
-
     }
+
+
 
 /* HEADER
 ----------------------------------*/
     .content-wrapper {
-        
+        margin: 0 auto;
+        max-width: 700px;
+        padding: 30px;
     }
 
 /* Links*/ 
@@ -47,12 +50,31 @@
 
 /* RESUME
 ----------------------------------*/
+    .resume header::before {
+        background: url(../images/header-image.png) center / cover;
+        background-size: cover;
+        content: "";
+        display: block;
+        height: 375px;
+    }
 
 /* Profile
 ----------------------------------*/
 
 /* Projects
 ----------------------------------*/
+
+    .project-item {
+        display: flow-root;
+        margin: 30px 0;
+    }
+
+    .project-item img{
+        width: 300 px;
+        float: left;
+        margin-right: 20px;
+
+    }
 
 /* Footer
 ----------------------------------*/
