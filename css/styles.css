@@ -47,6 +47,11 @@
         text-decoration: none; 
     }
 
+    .download-link {
+        position: fixed;
+        top: 0px;
+    }
+
 
 /* RESUME
 ----------------------------------*/
@@ -57,6 +62,7 @@
         display: block;
         height: 375px;
     }
+    
 
 /* Profile
 ----------------------------------*/
